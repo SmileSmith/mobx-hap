@@ -1,0 +1,31 @@
+{
+  "name": "mobx-hap",
+  "version": "1.0.0",
+  "description": "mobx binding for hap",
+  "main": "./dist/index.js",
+  "scripts": {
+    "compile": "webpack --config ./config/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmileSmith/mobx-hap.git"
+  },
+  "keywords": [
+    "hap",
+    "mobx"
+  ],
+  "author": "SmileSmith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SmileSmith/mobx-hap/issues"
+  },
+  "homepage": "https://github.com/SmileSmith/mobx-hap#readme",
+  "devDependencies": {
+    "ts-loader": "^4.2.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
